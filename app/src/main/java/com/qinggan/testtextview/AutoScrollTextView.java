@@ -188,6 +188,7 @@ public class AutoScrollTextView extends LinearLayout
         if(!TextUtils.isEmpty(text))
         {
             content = text;
+            contentList.clear();
             spliteContent();
             index = 0;
             isRunFlag = true;
